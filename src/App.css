@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #3498db;
+  padding: 20px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+.product {
+  background-color: #ecf0f1;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1.5fr 1.5fr; /* Adjusted column widths */
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 1.2rem;
+}
+
+.price {
+  font-size: 1.2rem;
+}
+
+.quantity {
+  text-align: center;
+}
+
+.total-amount {
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn-btn {
+  width: fit-content;
+  margin: auto;
+  padding: 8px 16px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-btn:hover {
+  background-color: #27ae60;
+}
+
+.sbtn {
+  width: auto; /* Adjusted width to auto */
+  padding: 8px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sbtn:hover {
+  background-color: #2980b9;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #3498db;
+  display: flex;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.footer-item {
+  text-align: center;
+}
+
+.form{
+  background-color: #3498db65;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputs{
+  margin-right: 10px;
+}
+.namee{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
